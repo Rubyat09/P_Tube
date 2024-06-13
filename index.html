@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" html data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <title>PH Tube</title>
+    <style>
+        *body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header >
+
+        <nav class="flex mx-[60px] mt-[20px] justify-between items-center ">
+            <div><img class="lg:w-[160px] lg:h-[40px]md:w-[160px] md:h-[40px] w-[70px] h-[30px]" src="Logo.png">
+
+            </div>
+            
+            <div>
+                <button id="sortBtn" class="lg:px-[20px] md:px-[20px] lg:py-[10px] md:py-[10px] px-[5px] py-[10px] lg:text-[18px]    bg-slate-300 rounded-md font-semibold">Sort by view</button>
+                
+    
+            </div>
+            <div>
+                <button class="px-[20px] py-[10px] text-[18px] text-white bg-red-500 rounded-md lg:font-semibold md:font-semibold" onclick="blogPage()">Blog</button>
+    
+            </div>
+        </nav>
+        <hr class="bg-slate-300 h-[2px] mx-[60px] mt-[10px] ">
+       
+
+    </header>
+
+    <main>
+        <section>
+            <div id="category-option" class="container  mx-auto flex justify-center lg:my-4  lg:px-12 gap-4">
+    
+            </div>
+        </section>
+    
+        <section class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-8" id="content">
+    
+    
+        </section>
+    
+    
+        <section id="notFound">
+            <div>
+    
+            </div>
+        </section>
+    
+        
+        <script src="js/application.js"></script>
+        <script src="js/blog.js"></script>
+    
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

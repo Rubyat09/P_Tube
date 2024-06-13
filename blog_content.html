@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="text-4xl pb-2 font-extrabold">Scope of var, let, and const int javascript</h1>
+    <p class="text-5xl "> In JavaScript, the scope of variables declared using var, let, and const varies, and
+        understanding these scopes is essential for writing predictable and maintainable code. <br><br>
+        <b>1. var</b><br><br>
+        <b>Function Scope:</b> Variables declared with 'var' have function-level scope. This means they are accessible
+        throughout the entire function in which they are defined. <br>
+
+        <b>Hoisting:</b> Variables declared with 'var' are hoisted to the top of their containing function or global
+        scope.
+        This means that you can use the variable before it's declared in the code, but it will be undefined until the
+        actual declaration is reached. <br>
+
+        <b>Global Scope:</b> If 'var' is declared outside of any function, it becomes a global variable, accessible from
+        anywhere in the script.<br><br>
+
+        <b>2. let</b><br><br>
+       <b>  Block Scope:</b>Variables declared with 'let' have block-level scope. They are limited to the block (enclosed by
+        curly braces) in which they are defined.<br>
+        <b>No Hoisting:</b> Unlike 'var', 'let' is not hoisted. It means you can't use the variable before its declaration
+        within the same block.<br><br>
+        <b>3. const</b><br><br>
+       <b> Block Scope:</b> Similar to 'let', 'const' also has block-level scope.<br>
+<b>Constant Value:</b> Variables declared with 'const' must be assigned a value when declared and cannot be reassigned after that. However, for objects and arrays declared with 'const', their properties or elements can still be modified.
+    </p>
+
+
+
+
+    <h1 class="text-4xl pb-2 font-extrabold">Use cases of null and undefined</h1>
+    <p class="text-5xl"><b> null:</b> Represents the intentional absence of a value, often used to indicate that a variable or object property should have no value. <br><br>
+
+       <b> undefined:</b> Represents uninitialized variables, function parameters without values, and missing object properties. It indicates the absence of an expected value.
+    </p>
+
+
+    <h1 class="text-4xl  font-extrabold">REST API</h1>
+    <p class="text-5xl ">In JavaScript, a REST API (Representational State Transfer Application Programming Interface) is a set of rules and conventions for building web services. It allows you to use standard HTTP methods like GET, POST, PUT, and DELETE to interact with resources (e.g., data) on a server. REST APIs are commonly used to fetch or send data between a client (e.g., a web browser or mobile app) and a server, making it easier to build web applications that communicate with back-end systems.
+
+    </p>
+</body>
+
+</html>
